@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Apps", "4 - Apps", "{D2A95F31-0F10-4D53-B238-550D3531D72F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{D28AE691-6A71-4272-BA3A-1611891BE285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGeneration.Service", "PowerGeneration.Service\PowerGeneration.Service.csproj", "{D6C2AD95-B836-4688-B7C5-53E12476B4F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Repository", "2 - Repository", "{7C7388C7-9A4B-4E99-BFD1-F4B243B6A835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGeneration.Repository", "PowerGeneration.Repository\PowerGeneration.Repository.csproj", "{CF7D8072-F3DB-4C64-B423-E4D9F1858548}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{5ADFD869-7EB9-446E-9E5E-0C26E3D5BDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGeneration.Domain", "PowerGeneration.Domain\PowerGeneration.Domain.csproj", "{E02F381B-FE96-4CD7-926D-B5664AEB72BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{1A6AB4F1-91DB-4695-8CBD-1C15BCE21AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGenerationRepository.XML", "PowerGenerationRepository.XML\PowerGenerationRepository.XML.csproj", "{4F6415B2-8418-4FA3-A0A4-864472E27156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGenerationWorker", "PowerGenerationWorker\PowerGenerationWorker.csproj", "{A6279198-6757-4085-92A4-37E18C3DB6B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{226AD290-91BB-413F-8877-EC263EE07919}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Cross Cutting", "4 - Cross Cutting", "{2E3700B8-0EBC-43C2-9180-18A520B2734B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGeneration.Common", "PowerGeneration.Common\PowerGeneration.Common.csproj", "{F4259612-CCC6-4A61-981D-05DCC11373D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGeneration.Repository.Xml.Tests", "PowerGeneration.Repository.Xml.Tests\PowerGeneration.Repository.Xml.Tests.csproj", "{A7680260-6FE2-447C-9BED-430A4B326665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C2AD95-B836-4688-B7C5-53E12476B4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C2AD95-B836-4688-B7C5-53E12476B4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C2AD95-B836-4688-B7C5-53E12476B4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C2AD95-B836-4688-B7C5-53E12476B4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7D8072-F3DB-4C64-B423-E4D9F1858548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7D8072-F3DB-4C64-B423-E4D9F1858548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7D8072-F3DB-4C64-B423-E4D9F1858548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7D8072-F3DB-4C64-B423-E4D9F1858548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02F381B-FE96-4CD7-926D-B5664AEB72BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02F381B-FE96-4CD7-926D-B5664AEB72BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02F381B-FE96-4CD7-926D-B5664AEB72BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02F381B-FE96-4CD7-926D-B5664AEB72BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6415B2-8418-4FA3-A0A4-864472E27156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6415B2-8418-4FA3-A0A4-864472E27156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6415B2-8418-4FA3-A0A4-864472E27156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6415B2-8418-4FA3-A0A4-864472E27156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6279198-6757-4085-92A4-37E18C3DB6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6279198-6757-4085-92A4-37E18C3DB6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6279198-6757-4085-92A4-37E18C3DB6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6279198-6757-4085-92A4-37E18C3DB6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4259612-CCC6-4A61-981D-05DCC11373D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4259612-CCC6-4A61-981D-05DCC11373D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4259612-CCC6-4A61-981D-05DCC11373D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4259612-CCC6-4A61-981D-05DCC11373D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7680260-6FE2-447C-9BED-430A4B326665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7680260-6FE2-447C-9BED-430A4B326665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7680260-6FE2-447C-9BED-430A4B326665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7680260-6FE2-447C-9BED-430A4B326665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6C2AD95-B836-4688-B7C5-53E12476B4F1} = {D28AE691-6A71-4272-BA3A-1611891BE285}
+		{CF7D8072-F3DB-4C64-B423-E4D9F1858548} = {7C7388C7-9A4B-4E99-BFD1-F4B243B6A835}
+		{E02F381B-FE96-4CD7-926D-B5664AEB72BF} = {5ADFD869-7EB9-446E-9E5E-0C26E3D5BDCF}
+		{4F6415B2-8418-4FA3-A0A4-864472E27156} = {1A6AB4F1-91DB-4695-8CBD-1C15BCE21AD9}
+		{A6279198-6757-4085-92A4-37E18C3DB6B6} = {D2A95F31-0F10-4D53-B238-550D3531D72F}
+		{F4259612-CCC6-4A61-981D-05DCC11373D4} = {2E3700B8-0EBC-43C2-9180-18A520B2734B}
+		{A7680260-6FE2-447C-9BED-430A4B326665} = {226AD290-91BB-413F-8877-EC263EE07919}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {325CEC49-E1BF-4924-86E4-03D49412BF1B}
+	EndGlobalSection
+EndGlobal
